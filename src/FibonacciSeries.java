@@ -5,14 +5,14 @@ public class FibonacciSeries {
         int a = 0;
         int b = 1;
 
-        System.out.println("Fibonacci Series Upto" + n + ": ");
+        System.out.println("Fibonacci Series Upto " + n + ": ");
 
         while (a <= n) {
             System.out.print(a + ", ");
 
-            int Z = a + b;
+            int nextTerm = a + b;
             a = b;
-            b = Z;
+            b = nextTerm;
 
         }
     }
